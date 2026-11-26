@@ -1,0 +1,10 @@
+{
+  "skill": "trend-hunter",
+  "test_cases": [
+    {"input": "Busca tendencias de productos para dropshipping en Colombia", "should_trigger": true},
+    {"input": "Analiza Google Trends para nichos de belleza en CO", "should_trigger": true},
+    {"input": "¿Qué productos están en alza para vender con Dropi?", "should_trigger": true},
+    {"input": "Calcula el margen neto de este producto", "should_trigger": false},
+    {"input": "Crea una landing page para este producto", "should_trigger": false}
+  ]
+}

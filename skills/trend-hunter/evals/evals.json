@@ -1,0 +1,35 @@
+{
+  "skill": "trend-hunter",
+  "test_cases": [
+    {
+      "name": "tendencias_belleza_colombia",
+      "input": "Encuentra las tendencias emergentes de productos de belleza y cuidado personal en Colombia para dropshipping con Dropi este trimestre",
+      "assertions": [
+        "Debe usar o referenciar Google Trends o fuentes verificables",
+        "Debe filtrar por aptitud COD y mercado Colombia",
+        "Debe entregar ranking de oportunidades sin inventar volúmenes numéricos exactos",
+        "Debe recomendar siguiente paso hacia winning-product-hunter o validación"
+      ]
+    },
+    {
+      "name": "analisis_keyword_especifica",
+      "input": "Analiza la tendencia de 'organizadores de cocina' en Colombia los últimos 6 meses y dime si vale la pena investigar para Dropi",
+      "assertions": [
+        "Debe distinguir datos observados de estimaciones",
+        "Debe evaluar estacionalidad y potencial COD",
+        "Debe incluir riesgos o razones para descartar si aplica",
+        "No debe inventar porcentajes de crecimiento sin fuente"
+      ]
+    },
+    {
+      "name": "nichos_hogar_estacional",
+      "input": "¿Qué tendencias de productos para el hogar están subiendo en Colombia de cara a Navidad y fin de año?",
+      "assertions": [
+        "Debe considerar estacionalidad",
+        "Debe priorizar productos físicos aptos para logística Dropi",
+        "Debe producir salida estructurada rankeada",
+        "Debe mencionar integración con otras skills si es relevante"
+      ]
+    }
+  ]
+}
